@@ -12,5 +12,5 @@ The SMTP architecture is normally composed of two subsystems: user agents and me
 The messages consist of header fields, a blank line and the body of the message. It is possible to send ASCII and non-ASCII characters, the latter through the Multipurpos Internet Mail Extension (MIME).
 
 ## References
-- [Sending Emails With Python](https://realpython.com/python-send-email/#yagmail)
+- [Sending Emails With Python](https://realpython.com/python-send-email)
 - [Media Types](https://www.iana.org/assignments/media-types/media-types.xhtml)
