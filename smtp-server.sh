@@ -5,4 +5,5 @@
 # Lorenzo Carnevale <lcarnevale@unime.it>
 
 echo "running SMTP server over localhost:1025"
-python -m smtpd -c DebuggingServer -n localhost:1025
+# python -m smtpd -c DebuggingServer -n localhost:1025
+python3 -m aiosmtpd -n
